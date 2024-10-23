@@ -9,7 +9,7 @@ import android.content.Intent
 
 class MainActivity : ComponentActivity() {
 
-        private val defaultEmail = "testuser@example.com"
+        private val defaultEmail = "usuario@example.com"
         private val defaultPassword = "123456"
 
     override fun onCreate(savedInstanceState: Bundle?) {
