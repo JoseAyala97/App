@@ -9,7 +9,7 @@ import android.content.Intent
 
 class MainActivity : ComponentActivity() {
 
-        private val defaultEmail = "usuario@example.com"
+        private val defaultEmail = "usuario1@example.com"
         private val defaultPassword = "123456"
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -58,7 +58,7 @@ class MainActivity : ComponentActivity() {
     // Función para simular autenticación (puedes sustituirla por tu lógica real, como una consulta a un servidor)
     private fun authenticateUser(email: String, password: String): Boolean {
         // Lógica de autenticación simulada
-        return email == "usuario@example.com" && password == "123456"
+        return email == "usuario1@example.com" && password == "123456"
     }
 }
 
